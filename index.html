@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <link rel="stylesheet" href="css/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex flex-col items-center justify-center px-5 bg-yellow min-h-dvh text-gray-950">
+    <main
+      class="flex flex-col gap-4 p-4 bg-white max-w-96 rounded-xl border border-gray-950 shadow-[5px_5px_0_0] shadow-gray-950"
+    >
+      <img
+        class="w-full mb-1 rounded-lg"
+        src="assets/images/illustration-article.svg"
+        alt="Abstract graphic"
+      />
+
+      <div class="flex flex-col gap-2">
+        <div class="px-2 py-1 text-sm font-bold rounded-md bg-yellow w-fit">Learning</div>
+        <div class="text-sm">Published 21 Dec 2023</div>
+      </div>
+      <h1 class="text-xl font-bold">
+        <a class="transition-colors duration-75 hover:text-yellow">HTML & CSS foundations</a>
+      </h1>
+      <p class="text-gray-500">
+        These languages are the backbone of every website, defining structure, content, and
+        presentation.
+      </p>
+
+      <a class="flex items-center gap-2 text-sm font-bold group">
+        <img
+          class="transition-all duration-75 size-6 filter group-hover:sepia"
+          src="./assets/images/image-avatar.webp"
+        />
+        <span class="transition-colors duration-75 group-hover:text-yellow">Greg Hooper</span>
+      </a>
+    </main>
+
+    <div class="absolute text-sm bottom-4">
+      Challenge by
+      <a
+        class="font-bold hover:underline"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a class="font-bold hover:underline" href="https://jrddp.me">Jared Peters</a>.
+    </div>
+  </body>
+</html>
